@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Mustafa | Full-Stack Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <header>
+
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav" id="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section-container">
+            <div class="hero-content glass-panel">
+                <span class="greeting">Hi, I'm</span>
+                <h1 class="glitch" data-text="Muhammad Mustafa">Muhammad Mustafa</h1>
+                <h3 class="role">Full-Stack Developer</h3>
+                <p>I build full-stack web apps with React, Express, and Tailwind CSS — clean on the front, solid on the
+                    back</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content glass-panel">
+                <p>I'm a full-stack developer who enjoys building complete web applications — from interactive UIs with
+                    React and Tailwind CSS to backend APIs with Express. I care about writing clean code that's easy to
+                    maintain and pleasant to use</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-container">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic structures and SEO best practices.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <h3>CSS3</h3>
+                    <p>Modern styling, animations, and maintainability.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-layer-group skill-icon"></i>
+                    <h3>Flexbox</h3>
+                    <p>Efficient one-dimensional layouts.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-th-large skill-icon"></i>
+                    <h3>CSS Grid</h3>
+                    <p>Complex 2D layouts and responsive blueprints.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-mobile-alt skill-icon"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first approach for all screens.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-github skill-icon"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and collaboration.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>Dynamic interactions and logic.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>React</h3>
+                    <p>Component-based UI development.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fas fa-wind skill-icon"></i>
+                    <h3>Tailwind CSS</h3>
+                    <p>Utility-first responsive styling.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-node-js skill-icon"></i>
+                    <h3>Express.js</h3>
+                    <p>Fast, unopinionated backend APIs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-list" style="display: flex; flex-direction: column; gap: 40px;">
+                <!-- Project 1 Placeholder -->
+                <div class="project-card glass-panel">
+                    <div class="project-image"
+                        style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.1), rgba(0, 242, 254, 0.1)); min-height: 300px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--primary-color);">
+                        <i class="fas fa-tasks" style="font-size: 5rem; margin-bottom: 20px;"></i>
+                        <h4 style="font-size: 1.2rem; letter-spacing: 1px;">React To-Do</h4>
+                    </div>
+                    <div class="project-info">
+                        <h3>React To-Do App</h3>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Vite</span>
+                            <span>Local Storage</span>
+                        </div>
+                        <p>A responsive To-Do List application built with React. It allows users to add, edit, delete,
+                            and mark tasks as completed. Features task filtering, dark/light mode, duplicate task
+                            prevention, and local storage support so tasks and theme preferences remain saved.</p>
+                        <div style="display: flex; gap: 15px; margin-top: 20px;">
+                            <a href="https://react-project-virid-three.vercel.app" target="_blank"
+                                class="btn primary-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sonu7t4/React-Project" target="_blank"
+                                class="btn secondary-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel">
+                    <div class="project-image"
+                        style="background: linear-gradient(135deg, rgba(255, 8, 68, 0.1), rgba(255, 177, 153, 0.1)); min-height: 300px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--accent-color);">
+                        <i class="fas fa-cloud-sun-rain" style="font-size: 5rem; margin-bottom: 20px;"></i>
+                        <h4 style="font-size: 1.2rem; letter-spacing: 1px;">Weather App</h4>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <div class="tech-stack">
+                            <span>JavaScript</span>
+                            <span>OpenWeather API</span>
+                            <span>Async/Await</span>
+                        </div>
+                        <p>A dynamic weather application that lets users select a country and view real-time weather
+                            information for its capital city. Uses API integration, DOM manipulation, local storage
+                            caching, and dynamic background changes based on current weather conditions.</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px;">
+                            <a href="https://sonu7t4.github.io/Weather/" target="_blank" class="btn primary-btn"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sonu7t4/Weather" target="_blank" class="btn secondary-btn"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info glass-panel">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sonu7t4@gmail.com">sonu7t4@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/muhammad-mustafa-6b5a98286" target="_blank">Muhammad
+                            Mustafa</a>
+                    </div>
+                </div>
+
+                <div class="contact-form glass-panel">
+                    <form action="#" method="get">
+                        <div class="input-group">
+                            <label for="username">Name</label>
+                            <input type="text" name="username" id="username" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-panel">
+        <p><i class="fa-solid fa-copyright"></i> 2026 Muhammad Mustafa. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Simple JS for Hamburger Menu -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
